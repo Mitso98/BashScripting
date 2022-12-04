@@ -69,7 +69,7 @@ Change lp to mylp
 Print all information about greatest uid.
 
 
-![alt_text]("images/Screenshot from 2022-12-04 20-37-27.png" "image_tooltip")
+![alt_text]('images/Screenshot from 2022-12-04 20-37-27.png' "image_tooltip")
 
 
 Get the sum of all accounts id’s.
