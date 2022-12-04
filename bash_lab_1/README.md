@@ -69,7 +69,7 @@ Change lp to mylp
 Print all information about greatest uid.
 
 
-![alt_text](images/image12.png "image_tooltip")
+awk -F: 'BEGIN {maxUID=0;maxRec=0} {if ($3 > maxUID){maxUID=$3;bigRec=$0}} END{print maxRec}' /etc/passwd
 
 
 Get the sum of all accounts id’s.
