@@ -1,19 +1,18 @@
 #!/bin/bash
 
-typeset -i n1
-typeset -i n2
-n1=1
-n2=1
-while test $n1 -eq $n2
+declare -a arr
+echo "How many elements you want to enter?"
+read length
+
+#fill arr
+for ((i=0;i<length;i++))
 do
-n2=$n2+1
-print $n1
-if [ $n1 –gt $n2 ]
-then
-break
-else
-continue
-fi
-n1=$n1+1
-print $n2
+	arr+=($i)
+done
+
+#print arr
+
+for ((i=0;i<length;i++))
+do
+	echo ">>" ${arr[$i]}
 done
