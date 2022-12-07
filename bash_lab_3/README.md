@@ -94,5 +94,3 @@ Write a function called mysq that calculate square if its argument.
 
 
 ![alt_text](images/image10.png "image_tooltip")
-
-
